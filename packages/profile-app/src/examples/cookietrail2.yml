@@ -1,0 +1,24 @@
+# trails are long-term, nebulous goals with a start-date
+# cookies are impactful experiences (not bounded by time)
+# events are time-bound and are assigned to at least one trail and can be tagged with cookies
+# twisters are modular exercises that are attributed to events
+
+trails:
+  - id: 0
+    name: Running my own education technology company
+    startDate: 07-21-2019
+
+cookies:
+  - id: 0
+    name: Read about d3 and React integration
+
+events:
+  - id: 0
+    type: single
+    single:
+      trails: [0]
+      cookies: [0]
+      date: 07-23-2019
+      timeInterval:
+        startTime: 6PM
+      

@@ -1,0 +1,84 @@
+# trails are long-term, nebulous goals
+trails:
+  - id: runningMyOwnEdTechCompany
+    trail: Running my own education technology company
+    dateStarted: 07-21-2019
+  - id: becomingFluentInNewLanguages
+    trail: Becoming fluent in new languages
+    dateStarted: 07-21-2019
+  - id: exercisingDaily
+    trail: Exercising daily
+    dateStarted: 07-21-2019
+  - id: learningAboutDiverseLifeStories
+    trail: Learning about diverse life stories
+    dateStarted: 07-21-2019
+  - id: makingMoney
+    trail: Making money
+    dateStarted: 07-21-2019
+  - id: analyzingArtAndLiterature
+    trail: Analyzing art and literature
+    dateStarted: 07-21-2019
+  - id: eatingHealthfully
+    trail: Eating healthfully
+    dateStarted: 07-21-2019
+  - id: illustrating
+    trail: Illustrating
+    dateStarted: 07-21-2019
+cookies:
+  - id: dutchLesson
+    cookie: Dutch lesson
+  - id: run3Miles
+    cookie: Run 3 miles
+  - id: packUpApartment
+    cookie: Pack up apartment
+  - id: americanHeartAssociationInfographics
+    cookie: American Heart Association Infographics
+  - id: panCanInterviews
+    cookie: PanCAN Interviews with Austin
+  - id: moveOutOfShrine 
+    cookie: Move out of Shrine
+  - id: moveIntoUpstart
+    cookie: Move into Upstart Creative Collective co-housing
+  - id: aQuietChangeInFilipinoTown
+    cookie: A quiet change in Filipino Town
+  - id: boxing
+    cookie: Boxing
+  - id: readAboutd3AndReact
+    cookie: Read about d3 and React integration
+  - id: callWendyAndNavo
+    cookie: Call with Wendy and Navo about MetaMindArt
+  - id: makeMyOwnFont
+    cookie: Make my own font
+  - id: interviewHilarie
+    cookie: Interview with Hilarie Koplow McAdams for PanCAN
+  - id: textingAmandaAboutAtlasAndAlloy 
+    cookie: Texting Amanda about Atlas and Alloy
+timeline:
+  - cookie: [dutchLesson]
+    trails: [becomingFluentInNewLanguages, learningAboutDiverseLifeStories]
+    dateAndTime: 
+    plotTwisters:
+      - twister: happinessScale
+        happinessScale: 9
+      - twister: creativityScale
+        creativityScale: 5
+      - twister: words
+        words: [listening, courtesy]
+  - cookie: [aQuietChangeInFilipinoTown]
+    trails: [runningMyOwnEdTechCompany, learningAboutDiverseLifeStories]
+    dateAndTime:
+    plotTwisters:
+      - twister: happinessScale
+        happinessScale: 9
+      - twister: creativityScale
+        creativityScale: 5
+      - twister: journal
+        journal: "I'm living in Upstart now. I didn't realize it was in Filipino Town. It's a diverse and relatively quiet area. The other creatives who live here ask me what my art is, a cute question." 
+  - cookie: [interviewHilarie]
+    trails: [learningAboutDiverseLifeStories, makingMoney]
+    dateAndTime: 
+    plotTwisters:
+      - twister: quote
+        quote: "SURPRISE: Other orgs have done similar things: melanoma/brain tumor has taken a similar approach. I bring this up because it’s easier to articulate a message when there’s an analog."
+      - twister: journal
+        journal: "Complex ideas need analog. They need translation. They need perception to understand, then relay that understanding in a way to people that is understood."

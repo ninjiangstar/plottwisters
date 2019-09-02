@@ -1,6 +1,6 @@
 import * as React from "react";
 import { BrowserRouter as Router, Route, RouteComponentProps, Switch } from "react-router-dom";
-import { CookieTrail } from "./components/CookieTrail";
+import { CookieTrail } from "./containers/CookieTrail";
 
 namespace ProfileApp {
     export interface IOwnProps extends RouteComponentProps {

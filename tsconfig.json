@@ -14,11 +14,18 @@
         "strict": true,
         "sourceMap": true,
         "composite": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "rootDir": ".",
+        "paths": {
+            "~/*": [
+                "packages/*"
+            ]
+        }
     },
     "exclude": [
-        "build",
+        "dist",
         "node_modules",
-        "lib",
         "scripts"
     ]
 }

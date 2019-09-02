@@ -36,6 +36,7 @@
         "no-default-export": true,
         "no-empty-interface": false,
         "no-namespace": false,
+        "object-literal-sort-keys": false,
         "prettier": {
             "options": {
                 "printWidth": 120,
