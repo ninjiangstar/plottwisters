@@ -1,21 +1,20 @@
 {
-  "name": "twisterland",
-  "version": "1.0.0",
-  "repository": "git@github.com:ninjiangstar/twisterland.git",
-  "author": "Andrew Jiang",
-  "license": "MIT",
+  "name": "twisterland-monorepo",
+  "version": "0.0.0",
   "private": true,
+  "description": "Twisterland Frontend Monorepo",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "compile": "lerna run compile",
+    "build": "lerna run build",
     "clean": "lerna run clean",
+    "dev": "lerna run dev --stream",
+    "dist": "lerna run dist",
     "lint": "lerna run lint",
+    "lint:fix": "lerna run lint -- --fix",
     "test": "lerna run test",
-    "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'",
-    "check-packages": "yarn clean && yarn compile && yarn test && yarn lint",
-    "publish-packages": "./scripts/publish"
+    "verify": "lerna run verify"
   },
   "dependencies": {
     "react": "^16.9.0",
@@ -25,7 +24,15 @@
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "lerna": "^3.16.4",
-    "typescript": "^3.6.2",
-    "webpack": "^4.39.3"
-  }
+    "prettier": "^1.18.2",
+    "tslint": "^5.19.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ninjiangstar/twisterland.git"
+  },
+  "author": "Twisterland",
+  "license": "MIT"
 }

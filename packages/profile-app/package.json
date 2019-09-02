@@ -1,0 +1,13 @@
+{
+    "name": "@twisterland/profile-app",
+    "version": "0.0.0",
+    "description": "Profile app components",
+    "main": "src/index.tsx",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ninjiangstar/twisterland.git",
+        "directory": "packages/profile-app"
+    },
+    "author": "Twisterland",
+    "license": "MIT"
+}
