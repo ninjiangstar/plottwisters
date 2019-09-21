@@ -1,0 +1,15 @@
+{
+    "name": "@twisterland/gift-tagger-app",
+    "version": "0.0.0",
+    "description": "Plot Twister: Gift Tagger App",
+    "main": "src/index.tsx",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ninjiangstar/twisterland.git",
+        "directory": "packages/gift-tagger-app"
+    },
+    "author": "Twisterland",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {}
+}

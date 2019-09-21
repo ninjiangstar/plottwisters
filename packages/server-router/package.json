@@ -1,5 +1,5 @@
 {
-    "name": "@twisterland/server",
+    "name": "@twisterland/server-router",
     "version": "0.0.0",
     "license": "MIT",
     "private": true,
@@ -13,6 +13,7 @@
         "lint:fix": "yarn run lint --fix"
     },
     "dependencies": {
+        "@twisterland/gift-tagger-app": "^0.0.0",
         "@twisterland/profile-app": "^0.0.0",
         "@twisterland/styles": "^0.0.0",
         "react-router-dom": "^5.0.1"
@@ -23,6 +24,8 @@
         "copy-webpack-plugin": "^5.0.4",
         "css-loader": "^3.2.0",
         "html-loader": "^0.5.5",
+        "js-yaml-loader": "^1.2.2",
+        "json-loader": "^0.5.7",
         "node-sass": "^4.12.0",
         "postcss-loader": "^3.0.0",
         "sass-loader": "^8.0.0",
@@ -36,6 +39,6 @@
     "repository": {
         "type": "git",
         "url": "git@github.com:ninjiangstar/twisterland.git",
-        "directory": "packages/server"
+        "directory": "packages/server-router"
     }
 }

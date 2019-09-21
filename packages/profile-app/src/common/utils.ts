@@ -1,4 +1,4 @@
-import * as moment from "moment";
+import moment from "moment";
 import { ICookie, IDataPoint } from "./types";
 
 export const getTimestamp = (date: string, time: string) => {
