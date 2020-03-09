@@ -1,0 +1,15 @@
+{
+  "name": "@twisterland/home-app",
+  "version": "0.0.0",
+  "description": "Twisterland landing",
+  "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ninjiangstar/twisterland.git",
+    "directory": "packages/home-app"
+  },
+  "author": "Twisterland",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

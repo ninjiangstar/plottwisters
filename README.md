@@ -1,20 +1,15 @@
 # Twisterland
 
+Twisterland is an infinitesimal universe that is built package by package. Using a monorepo, we may create, scale, and maintain this world efficiently.
+
 ## Frontend DevX
 
 Run `yarn && yarn dev` to start server and then navigate to `[http://localhost:9000](http://localhost:9000)`.
 
-### One-Time Setup
-Preferred IDE: VS Code: [https://code.visualstudio.com](https://code.visualstudio.com/)
+## Resources
 
-- Set up command line: [https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)
-
-Prerequisites:
-
-- brew: package manager for CLI tools
-    - `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- node: javascript runtime
-    - `brew install node`
-- yarn: dependency manager
-    - `brew install yarn`
-
+- [Workspace Environment Setup](docs/setup.md)
+- [Engineering Standards](docs/standards.md)
+- [React Typescript Cheatsheet](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+- [Typescript Utilities Cheatsheet](https://codewithstyle.info/Comprehensive-list-of-useful-built-in-types-in-TypeScript/)
+- [React Hooks](https://reactjs.org/docs/hooks-reference.html)
