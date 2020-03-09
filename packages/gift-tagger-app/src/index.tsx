@@ -219,7 +219,7 @@ export class GiftTaggerApp extends React.PureComponent<{}> {
 
   private renderGiftTag = (
     tag: { name: string; alias: string; description?: string },
-    i: number
+    i: number,
   ) => {
     return (
       <div key={i} className="gt-gift-tag-box grid-large">

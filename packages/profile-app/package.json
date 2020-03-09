@@ -1,19 +1,19 @@
 {
-    "name": "@twisterland/profile-app",
-    "version": "0.0.0",
-    "description": "Profile app components",
-    "main": "src/index.tsx",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:ninjiangstar/twisterland.git",
-        "directory": "packages/profile-app"
-    },
-    "author": "Twisterland",
-    "license": "MIT",
-    "dependencies": {
-        "moment": "^2.24.0"
-    },
-    "devDependencies": {
-        "@types/moment": "^2.13.0"
-    }
+  "name": "@twisterland/profile-app",
+  "version": "0.0.0",
+  "description": "Profile app components",
+  "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ninjiangstar/twisterland.git",
+    "directory": "packages/profile-app"
+  },
+  "author": "Twisterland",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "@types/moment": "^2.13.0"
+  }
 }

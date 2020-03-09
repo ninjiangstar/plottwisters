@@ -1,44 +1,44 @@
 {
-    "name": "@twisterland/server-router",
-    "version": "0.0.0",
-    "license": "MIT",
-    "private": true,
-    "sideEffects": [
-        ".scss"
-    ],
-    "scripts": {
-        "build": "webpack-cli",
-        "dev": "webpack-dev-server",
-        "lint": "tslint './src/**/*.ts?(x)'",
-        "lint:fix": "yarn run lint --fix"
-    },
-    "dependencies": {
-        "@twisterland/gift-tagger-app": "^0.0.0",
-        "@twisterland/profile-app": "^0.0.0",
-        "@twisterland/styles": "^0.0.0",
-        "react-router-dom": "^5.0.1"
-    },
-    "devDependencies": {
-        "@types/react-router-dom": "^4.3.5",
-        "autoprefixer": "^9.6.1",
-        "copy-webpack-plugin": "^5.0.4",
-        "css-loader": "^3.2.0",
-        "html-loader": "^0.5.5",
-        "js-yaml-loader": "^1.2.2",
-        "json-loader": "^0.5.7",
-        "node-sass": "^4.12.0",
-        "postcss-loader": "^3.0.0",
-        "sass-loader": "^8.0.0",
-        "style-loader": "^1.0.0",
-        "ts-loader": "^6.0.4",
-        "webpack": "^4.39.3",
-        "webpack-cli": "^3.3.7",
-        "webpack-dev-server": "^3.8.0",
-        "webpack-notifier": "^1.8.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:ninjiangstar/twisterland.git",
-        "directory": "packages/server-router"
-    }
+  "name": "@twisterland/server-router",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "sideEffects": [
+    ".scss"
+  ],
+  "scripts": {
+    "build": "webpack-cli",
+    "dev": "webpack-dev-server",
+    "lint": "tslint './src/**/*.ts?(x)'",
+    "lint:fix": "yarn run lint --fix"
+  },
+  "dependencies": {
+    "@twisterland/gift-tagger-app": "0.0.0",
+    "@twisterland/profile-app": "0.0.0",
+    "@twisterland/styles-common": "0.0.0",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^4.3.5",
+    "autoprefixer": "^9.6.1",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "html-loader": "^0.5.5",
+    "js-yaml-loader": "^1.2.2",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-notifier": "^1.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ninjiangstar/twisterland.git",
+    "directory": "packages/server-router"
+  }
 }

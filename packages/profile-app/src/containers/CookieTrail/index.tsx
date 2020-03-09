@@ -71,7 +71,7 @@ const SAMPLE_DATA: ICookie[] = [
 
 const mapDataPointsToPixels = (
   dataPoints: IDataPoint[],
-  domainRange: IDomainRange
+  domainRange: IDomainRange,
 ): IDataPoint[] => {
   const { domain, range, width, height, buffer } = domainRange;
   const [x0, x1] = domain;

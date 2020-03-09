@@ -1,36 +1,22 @@
 {
-    "compilerOptions": {
-        "jsx": "react",
-        "lib": [
-            "es5",
-            "es2015",
-            "es2016",
-            "es2017",
-            "dom"
-        ],
-        "module": "esnext",
-        "target": "es5",
-        "moduleResolution": "node",
-        "strict": true,
-        "sourceMap": true,
-        "composite": true,
-        "baseUrl": ".",
-        "outDir": "dist",
-        "rootDir": ".",
-        "paths": {
-            "~/*": [
-                "packages/*"
-            ]
-        },
-        "resolveJsonModule": true,
-        "esModuleInterop": true
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["es5", "es2015", "es2016", "es2017", "dom"],
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
+    "composite": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "rootDir": ".",
+    "paths": {
+      "~/*": ["packages/*"]
     },
-    "exclude": [
-        "dist",
-        "node_modules",
-        "scripts"
-    ],
-    "include": [
-        "*.json"
-    ]
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": ["dist", "node_modules", "scripts"],
+  "include": ["*.json"]
 }

@@ -35,7 +35,7 @@ cookies:
     cookie: American Heart Association Infographics
   - id: panCanInterviews
     cookie: PanCAN Interviews with Austin
-  - id: moveOutOfShrine 
+  - id: moveOutOfShrine
     cookie: Move out of Shrine
   - id: moveIntoUpstart
     cookie: Move into Upstart Creative Collective co-housing
@@ -51,12 +51,12 @@ cookies:
     cookie: Make my own font
   - id: interviewHilarie
     cookie: Interview with Hilarie Koplow McAdams for PanCAN
-  - id: textingAmandaAboutAtlasAndAlloy 
+  - id: textingAmandaAboutAtlasAndAlloy
     cookie: Texting Amanda about Atlas and Alloy
 timeline:
   - cookie: [dutchLesson]
     trails: [becomingFluentInNewLanguages, learningAboutDiverseLifeStories]
-    dateAndTime: 
+    dateAndTime:
     plotTwisters:
       - twister: happinessScale
         happinessScale: 9
@@ -73,10 +73,10 @@ timeline:
       - twister: creativityScale
         creativityScale: 5
       - twister: journal
-        journal: "I'm living in Upstart now. I didn't realize it was in Filipino Town. It's a diverse and relatively quiet area. The other creatives who live here ask me what my art is, a cute question." 
+        journal: "I'm living in Upstart now. I didn't realize it was in Filipino Town. It's a diverse and relatively quiet area. The other creatives who live here ask me what my art is, a cute question."
   - cookie: [interviewHilarie]
     trails: [learningAboutDiverseLifeStories, makingMoney]
-    dateAndTime: 
+    dateAndTime:
     plotTwisters:
       - twister: quote
         quote: "SURPRISE: Other orgs have done similar things: melanoma/brain tumor has taken a similar approach. I bring this up because it’s easier to articulate a message when there’s an analog."

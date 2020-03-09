@@ -1,48 +1,19 @@
 {
-    "extends": [
-        "tslint:recommended",
-        "tslint-react"
-    ],
-    "rules": {
-        "ban": {
-            "options": [
-                [
-                    "_",
-                    "extend",
-                    "use object spread: { ...a, ...b }"
-                ],
-                [
-                    "_",
-                    "isNull",
-                    "use plain JS: == null"
-                ],
-                [
-                    "_",
-                    "isDefined",
-                    "use plain JS: != null"
-                ],
-                [
-                    "Object",
-                    "assign",
-                    "use object spread: { ...a, ...b }"
-                ],
-                [
-                    "Object",
-                    "getOwnPropertyNames",
-                    "use Object.keys()"
-                ]
-            ]
-        },
-        "no-default-export": true,
-        "no-empty-interface": false,
-        "no-namespace": false,
-        "object-literal-sort-keys": false,
-        "prettier": {
-            "options": {
-                "printWidth": 120,
-                "tabWidth": 4,
-                "trailingComma": "all"
-            }
-        }
-    }
+  "extends": ["tslint:recommended", "tslint-react"],
+  "rules": {
+    "ban": {
+      "options": [
+        ["_", "extend", "use object spread: { ...a, ...b }"],
+        ["_", "isNull", "use plain JS: == null"],
+        ["_", "isDefined", "use plain JS: != null"],
+        ["Object", "assign", "use object spread: { ...a, ...b }"],
+        ["Object", "getOwnPropertyNames", "use Object.keys()"]
+      ]
+    },
+    "no-default-export": true,
+    "no-empty-interface": false,
+    "no-namespace": false,
+    "object-literal-sort-keys": false,
+    "prettier": true
+  }
 }
